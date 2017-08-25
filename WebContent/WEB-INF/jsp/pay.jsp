@@ -55,7 +55,7 @@
 	<script>
 		$("#showTooltips").click(function() {
 			var money = $('#money').val();
-			if (!/^([1-9][\d]{0,7}|0)(\.[\d]{1,2})?$/.test(money)) {
+			if ((!/^([1-9][\d]{0,7}|0)(\.[\d]{1,2})?$/.test(money))||(money==0)) {
 				$.toptip('请输入正确金额');
 			} else {
 				$.toptip('提交成功', 'success');
