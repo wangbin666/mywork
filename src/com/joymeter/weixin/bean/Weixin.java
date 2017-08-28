@@ -8,7 +8,7 @@ public class Weixin {
     public static final String apiKey = "ada4a0169ee884000d9fc815f929fe1f";
     public static final String encodingAESKey="fvW4XJJTVeV1RN7LAjBK3PdAGrSoDFy3F5cPH053cal";
     public static final String toName = "";
-    
+    public static final String mchId="1235528802";
     
 	//1)消息文本 text
 	public static final String TEXT="text";

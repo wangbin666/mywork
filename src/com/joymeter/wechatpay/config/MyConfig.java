@@ -1,6 +1,8 @@
 package com.joymeter.wechatpay.config;
 
 import com.github.wxpay.sdk.WXPayConfig;
+import com.joymeter.weixin.bean.Weixin;
+
 import java.io.*;
 /**
  * 微信公共号配置信息
@@ -24,15 +26,15 @@ public class MyConfig implements WXPayConfig{
     }
 
     public String getAppID() {
-        return "wxa8c9e5fe21169ce9";
+        return Weixin.appId;  // "wxa8c9e5fe21169ce9";
     }
 
     public String getMchID() {
-        return "1235528802";
+        return Weixin.mchId;   //1235528802
     }
 
     public String getKey() {
-        return "ada4a0169ee884000d9fc815f929fe1f";
+        return Weixin.apiKey;//ada4a0169ee884000d9fc815f929fe1f
     }
 
     public InputStream getCertStream() {

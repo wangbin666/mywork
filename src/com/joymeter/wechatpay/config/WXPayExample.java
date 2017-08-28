@@ -27,11 +27,11 @@ public class WXPayExample {
         data.put("total_fee", money);
         data.put("spbill_create_ip", "115.196.222.240");
         data.put("notify_url", "http://pay.qingcailuobo.cn/wbweixin/notify");
-        data.put("trade_type", "JSAPI");  // 此处指定为扫码支付
+        data.put("trade_type", "JSAPI");  // 此处指定为公共号支付
 //        NATIVE JSAPI
         data.put("product_id", "12");
         
-//        data.put("openid", "oFcIft2-vUqH25pL_zqyt0x65cvM");
+
         data.put("openid", openid);
         Map<String, String> resp =null;
         try {

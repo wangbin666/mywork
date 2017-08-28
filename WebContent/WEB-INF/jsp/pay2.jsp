@@ -60,7 +60,7 @@ function onBridgeReady(){
 
             	msg="fail";
             } 
-            self.location="http://pay.qingcailuobo.cn/wbweixin/return?msg="+msg;
+//             self.location="http://pay.qingcailuobo.cn/wbweixin/return?msg="+msg;
         	window.close();
         }
     ); 

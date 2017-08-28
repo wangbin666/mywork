@@ -13,7 +13,7 @@
 <script type="text/javascript">
 function close(){
 	window.opener=null;
-	setTimeout("self.close()",5000);
+	setTimeout("CloseWebPage",5000);
 }
 function CloseWebPage(){
 

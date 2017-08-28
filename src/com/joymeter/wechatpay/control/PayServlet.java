@@ -1,6 +1,6 @@
 package com.joymeter.wechatpay.control;
 
-import java.io.IOException;
+
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,10 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import com.joymeter.common.util.HttpUtil;
 import com.joymeter.common.util.WxSign;
 import com.joymeter.common.util.XmlUtil;
